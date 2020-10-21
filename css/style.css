@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #BE3587;
   outline: none;
   text-decoration: none;
 }
@@ -274,7 +274,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #B22F7F;
   text-decoration: none;
 }
 

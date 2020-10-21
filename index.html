@@ -48,24 +48,24 @@
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet" />
 
-    <!-- =======================================================
-    Theme Name: NewBiz
-    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+    <style>
+      @media (max-width:800px){
+        .ada{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+      }
+    </style>
+    
   </head>
 
   <body>
-    <!--==========================
-  Header
-  ============================-->
+    
     <header id="header" class="fixed-top">
       <div class="container">
         <div class="logo float-left">
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
-          <img src="img/gogodevss.png" alt="" class="img-fluid" />
+          <img src="img/gogodevss.png" alt="gogodevs" class="img-fluid" />
         </div>
 
         <nav class="main-nav float-right d-none d-lg-block">
@@ -73,27 +73,8 @@
             <li class="active"><a href="#intro">Home</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#team">Team</a></li>
-            <li class="drop-down">
-              <a href="">Drop Down</a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="drop-down">
-                  <a href="#">Drop Down 2</a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-                <li><a href="#">Drop Down 5</a></li>
-              </ul>
-            </li>
+            <li><a href="#why-us">Why Choose us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>            
             <li><a href="#contact">Contact Us</a></li>
           </ul>
         </nav>
@@ -177,8 +158,8 @@
             </div>
 
             <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-              <br/>
-              <img src="img/team.png" class="img-fluid" alt="" />
+              <br/><br/>
+              <img src="img/teamm.png" class="img-fluid" alt="" />
             </div>
           </div>
 
@@ -257,91 +238,98 @@
               data-wow-duration="1.4s"
             >
               <div class="box">
-                <div class="icon">
-                  <i
-                    class="ion-ios-analytics-outline"
-                    style="color: #ff689b"
-                  ></i>
-                </div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                
+                <div class="row justify-content-center">
+                  <div class="col-1">
+                    <div class="icon">
+                      <img src="img/seo (1).png" width="70px" height="70px" />
+                    </div>
+                  </div>
+                  <div class="col-10">
+                    <h4 class="title"><a >Web Development</a></h4>
                 <p class="description">
                   Voluptatum deleniti atque corrupti quos dolores et quas
                   molestias excepturi sint occaecati cupiditate non provident
                 </p>
-              </div>
-            </div>
-            <div
-              class="col-md-6 col-lg-5 wow bounceInUp"
-              data-wow-duration="1.4s"
-            >
-              <div class="box">
-                <div class="icon">
-                  <i
-                    class="ion-ios-bookmarks-outline"
-                    style="color: #e9bf06"
-                  ></i>
+                  </div>
                 </div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                <p class="description">
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat tarad limino ata
-                </p>
               </div>
             </div>
 
             <div
               class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
-              data-wow-delay="0.1s"
               data-wow-duration="1.4s"
             >
               <div class="box">
-                <div class="icon">
-                  <i class="ion-ios-paper-outline" style="color: #3fcdc7"></i>
-                </div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                
+                <div class="row justify-content-center">
+                  <div class="col-1">
+                    <div class="icon">
+                      <img src="img/mobile-app.png" width="70px" height="70px" />
+                    </div>
+                  </div>
+                  <div class="col-10">
+                    <h4 class="title"><a >App Development</a></h4>
                 <p class="description">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
                 </p>
-              </div>
-            </div>
-            <div
-              class="col-md-6 col-lg-5 wow bounceInUp"
-              data-wow-delay="0.1s"
-              data-wow-duration="1.4s"
-            >
-              <div class="box">
-                <div class="icon">
-                  <i
-                    class="ion-ios-speedometer-outline"
-                    style="color: #41cf2e"
-                  ></i>
+                  </div>
                 </div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum
-                </p>
               </div>
             </div>
 
             <div
-              class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
-              data-wow-delay="0.2s"
-              data-wow-duration="1.4s"
-            >
-              <div class="box">
-                <div class="icon">
-                  <i class="ion-ios-world-outline" style="color: #d6ff22"></i>
+            class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
+            data-wow-duration="1.4s"
+          >
+            <div class="box">
+              
+              <div class="row justify-content-center">
+                <div class="col-1">
+                  <div class="icon">
+                    <img src="img/stats (1).png" width="70px" height="70px" />
+                  </div>
                 </div>
-                <h4 class="title"><a href="">Nemo Enim</a></h4>
-                <p class="description">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
-                </p>
+                <div class="col-10">
+                  <h4 class="title"><a >SEO</a></h4>
+              <p class="description">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditate non provident
+              </p>
+                </div>
               </div>
             </div>
-            <div
+          </div>
+
+          <div
+          class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
+          data-wow-duration="1.4s"
+        >
+          <div class="box">
+            
+            <div class="row justify-content-center">
+              <div class="col-1">
+                <div class="icon">
+                  <img src="img/computer.png" width="70px" height="70px" />
+                </div>
+              </div>
+              <div class="col-10">
+                <h4 class="title"><a >Graphic Designing</a></h4>
+            <p class="description">
+              Voluptatum deleniti atque corrupti quos dolores et quas
+              molestias excepturi sint occaecati cupiditate non provident
+            </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          
+
+           
+           
+            <!-- <div
               class="col-md-6 col-lg-5 wow bounceInUp"
               data-wow-delay="0.2s"
               data-wow-duration="1.4s"
@@ -356,7 +344,7 @@
                   libero tempore, cum soluta nobis est eligendi
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -380,12 +368,12 @@
               <div class="card wow bounceInUp">
                 <i class="fa fa-diamond"></i>
                 <div class="card-body">
-                  <h5 class="card-title">Corporis dolorem</h5>
+                  <h5 class="card-title">Committed to Quality</h5>
                   <p class="card-text">
                     Deleniti optio et nisi dolorem debitis. Aliquam nobis est
                     temporibus sunt ab inventore officiis aut voluptatibus.
                   </p>
-                  <a href="#" class="readmore">Read more </a>
+                  <!-- <a href="#" class="readmore">Read more </a> -->
                 </div>
               </div>
             </div>
@@ -394,12 +382,12 @@
               <div class="card wow bounceInUp">
                 <i class="fa fa-language"></i>
                 <div class="card-body">
-                  <h5 class="card-title">Voluptates dolores</h5>
+                  <h5 class="card-title"> Assured Services</h5>
                   <p class="card-text">
                     Voluptates nihil et quis omnis et eaque omnis sint aut.
                     Ducimus dolorum aspernatur.
                   </p>
-                  <a href="#" class="readmore">Read more </a>
+                  <!-- <a href="#" class="readmore">Read more </a> -->
                 </div>
               </div>
             </div>
@@ -408,12 +396,12 @@
               <div class="card wow bounceInUp">
                 <i class="fa fa-object-group"></i>
                 <div class="card-body">
-                  <h5 class="card-title">Eum ut aspernatur</h5>
+                  <h5 class="card-title">Sleek Design</h5>
                   <p class="card-text">
                     Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis
                     porro in non nemo ex.
                   </p>
-                  <a href="#" class="readmore">Read more </a>
+                  <!-- <a href="#" class="readmore">Read more </a> -->
                 </div>
               </div>
             </div>
@@ -421,12 +409,12 @@
 
           <div class="row counters">
             <div class="col-lg-3 col-6 text-center">
-              <span data-toggle="counter-up">274</span>
+              <span data-toggle="counter-up">50</span>
               <p>Clients</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
-              <span data-toggle="counter-up">421</span>
+              <span data-toggle="counter-up">80</span>
               <p>Projects</p>
             </div>
 
@@ -696,7 +684,7 @@
       <!--==========================
       Clients Section
     ============================-->
-      <section id="testimonials" class="section-bg">
+      <!-- <section id="testimonials" class="section-bg">
         <div class="container">
           <header class="section-header">
             <h3>Testimonials</h3>
@@ -787,13 +775,13 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- #testimonials -->
 
       <!--==========================
       Team Section
     ============================-->
-      <section id="team">
+      <!-- <section id="team">
         <div class="container">
           <div class="section-header">
             <h3>Team</h3>
@@ -877,7 +865,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- #team -->
 
       <!--==========================
@@ -958,27 +946,28 @@
             <div class="col-lg-6">
               <div class="map mb-4 mb-lg-0">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                src="https://maps.google.com/maps?q=omer%20creatives&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameborder="0"
-                  style="border: 0; width: 100%; height: 312px"
+                  style="border: 0; width: 100%; height: 412px"
                   allowfullscreen
                 ></iframe>
               </div>
             </div>
+            
 
             <div class="col-lg-6">
               <div class="row">
                 <div class="col-md-5 info">
                   <i class="ion-ios-location-outline"></i>
-                  <p>A108 Adam Street, NY 535022</p>
+                  <p>Pragati Offset Printers, 11-6-865, Cellar, Mahboob Residency Beside, FTCCI Marg, Hari Nagar, Red Hills, Lakdikapul, Hyderabad, Telangana 500004</p>
                 </div>
                 <div class="col-md-4 info">
                   <i class="ion-ios-email-outline"></i>
-                  <p>info@example.com</p>
+                  <p>gogodevs8@gmail.com</p>
                 </div>
                 <div class="col-md-3 info">
                   <i class="ion-ios-telephone-outline"></i>
-                  <p>+1 5589 55488 55</p>
+                  <p>7013855186</p>
                 </div>
               </div>
 
@@ -1055,23 +1044,16 @@
     Footer
   ============================-->
     <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 footer-info">
-              <div class="justify-content-center">
-                <img src="img/iconn.png" style="max-height: 100px" />
+      <div class="footer-top justify-content-center">
+        <div class="container justify-content-center ada">
+          <div class="row justify-content-center">
+            <div class="col-lg-2 col-md-6 footer-info">
+              <div class="">
+                <img src="img/iconn.png" style="max-height: 100px"  style="justify-self: flex-end;" />
               </div>
-              <h3>GoGo Devs</h3>
-              <!-- <p>
-                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-                nada terra videa magna derita valies darta donna mare fermentum
-                iaculis eu non diam phasellus. Scelerisque felis imperdiet proin
-                fermentum leo. Amet volutpat consequat mauris nunc congue.
-              </p> -->
-            </div>
+           
 
-            <div class="col-lg-2 col-md-6 footer-links">
+            <!-- <div class="col-lg-2 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li><a href="#">Home</a></li>
@@ -1080,9 +1062,9 @@
                 <li><a href="#">Terms of service</a></li>
                 <li><a href="#">Privacy policy</a></li>
               </ul>
-            </div>
+            </div> -->
 
-            <div class="col-lg-3 col-md-6 footer-contact">
+            <!-- <div class="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
                 A108 Adam Street <br />
@@ -1092,20 +1074,9 @@
                 <strong>Email:</strong> info@example.com<br />
               </p>
 
-              <div class="social-links">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="instagram"
-                  ><i class="fa fa-instagram"></i
-                ></a>
-                <a href="#" class="google-plus"
-                  ><i class="fa fa-google-plus"></i
-                ></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
+            </div> -->
 
-            <div class="col-lg-3 col-md-6 footer-newsletter">
+            <!-- <div class="col-lg-3 col-md-6 footer-newsletter">
               <h4>Our Newsletter</h4>
               <p>
                 Tamen quem nulla quae legam multos aute sint culpa legam noster
@@ -1118,10 +1089,66 @@
                   value="Subscribe"
                 />
               </form>
-            </div>
+            </div> -->
           </div>
+          
+           
+
+            <!-- <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div> -->
+
+            <!-- <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                A108 Adam Street <br />
+                New York, NY 535022<br />
+                United States <br />
+                <strong>Phone:</strong> +1 5589 55488 55<br />
+                <strong>Email:</strong> info@example.com<br />
+              </p>
+
+            </div> -->
+
+            <!-- <div class="col-lg-3 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>
+                Tamen quem nulla quae legam multos aute sint culpa legam noster
+                magna veniam enim veniam illum dolore legam minim quorum culpa
+                amet magna export quem marada parida nodela caramase seza.
+              </p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div> -->
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 footer-info">
+              
+              <div class="social-links">
+                <a href="https://twitter.com/gogodevs" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="instagram"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a href="#" class="google-plus"
+                  ><i class="fa fa-google-plus"></i
+                ></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
         </div>
-      </div>
+      
 
       <div class="container">
         <div class="copyright">
@@ -1142,7 +1169,7 @@
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     <!-- Uncomment below i you want to use a preloader -->
-    <!-- <div id="preloader"></div> -->
+    <div id="preloader"></div>
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
@@ -1162,4 +1189,5 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
   </body>
-</html>
+
+  </html>
