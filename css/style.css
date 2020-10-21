@@ -1353,6 +1353,10 @@ h6 {
     height: 100vh;
   }
 
+  #intro > .container {
+    padding-top: 80px;
+  }
+
   #intro .intro-img {
     width: 80%;
     float: none;
@@ -1374,6 +1378,9 @@ h6 {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+  }
+  #intro > .container {
+    padding-top: 120px;
   }
 }
 
